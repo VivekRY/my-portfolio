@@ -3,9 +3,9 @@ export const SKILLS=[
         title:"Frontend", 
         icon: "./assets/frontend.png",
         skills: [
-            {skill: "HTML5", percentage: "80%"}, 
-            {skill: "CSS3 (Sass/SCSS)", percentage: "90%" }, 
-            {skill: "JavaScript", percentage: "75%" }, 
+            {skill: "HTML5", percentage: "75%"}, 
+            {skill: "CSS3 (Sass/SCSS)", percentage: "75%" }, 
+            {skill: "JavaScript", percentage: "80%" }, 
             {skill: "React.js", percentage: "88%"},
         ], 
     },
@@ -23,7 +23,7 @@ export const SKILLS=[
         skills: [ 
             { skill: "Git & GitHub", percentage: "95%" },
             { skill: "Visual Studio Code", percentage: "75%" },
-            { skill: "Webpack", percentage: "60%" },
+            { skill: "Webpack", percentage: "50%" },
             { skill: "Responsive Design", percentage: "70%" },
         ]
     },
@@ -31,10 +31,24 @@ export const SKILLS=[
         title: "Soft Skills", 
         icon: "./assets/softskills.png", 
         skills: [
-            { skill: "Problen-solving", percentage: "80%" },
+            { skill: "Problem-solving", percentage: "90%" },
             { skill: "Collaboration", percentage: "85%" },
-            { skill: "Attention to Detail", percentage: "75%" },
+            { skill: "Attention to Detail", percentage: "85%" },
         ]
     }
 
+]
+
+export const WORK_EXPERIENCE=[
+    {
+        title: 'Senior Software Engineer at Persistent Systems Ltd',
+        date: "August 2021 - November 2023",
+        responsibilities: [
+            "Designed Respnsive and Dynamic components with its functionalities using ReactJs, NextJs with redux, HTML5 and CSS3.",
+            "Implemented Authentication using Hooks including Role based Access to the Application.",
+            "Conducted Code reviews, identified issues and implemented best practices to ensure high quality code.",
+            "Implemented and managed Application State using Redux Toolkit.",
+            "Optimized code for better Performance, scalability, security and reliability."
+        ]
+    }
 ]
