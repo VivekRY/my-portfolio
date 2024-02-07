@@ -23,7 +23,7 @@ const Hero = () => {
                     </div>
                     <div>
                         <div className='tech-icon-g'>
-                            <img style={{ width: '18rem', marginLeft: '1.5rem' }} src='./tech-icon.png' />
+                            <img style={{ width: '18rem', marginLeft: '1.5rem' }} src='./tech-icon.png' alt='tech'/>
                         </div>
                     </div>
                 </div>
