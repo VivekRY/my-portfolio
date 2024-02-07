@@ -19,6 +19,7 @@
     .contact-content{
         padding: 1rem;
         flex-direction: column-reverse;
+        cursor: pointer;
     }
 
     .contact-container h5{

@@ -39,12 +39,12 @@ const Navbar = () => {
                         <li>
                             <Link to="contactid" offset={-150} className={`menu-item ${activeNav==='Contact'?'active':''}`} smooth duration={500} name="Contact" onClick={handleActive}>Contact me</Link>
                         </li>
-                        <button className="contact-btn" onClick={() => { }}>
+                        {/* <button className="contact-btn" onClick={() => { }}>
                             Hire  me
-                        </button>
+                        </button> */}
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>
-                        <span className={"material-symbols-outlined"} >{openMenu ? "✖" : "☰"}</span>
+                        <span className={"material-symbols-outlined"} onClick={toggleMenu} >{openMenu ? "✖" : "☰"}</span>
                     </button>
                 </div>
             </nav>

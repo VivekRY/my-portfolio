@@ -54,11 +54,13 @@ form button:hover{
     form textarea{
         padding: 0.7rem;
         border-radius: 0.3rem;
+        cursor: pointer;
     }
 
     form button{
         font-size: 0.9rem;
         padding: 0.7rem;
         border-radius: 0.3rem;
+        cursor: pointer;
     }
 }

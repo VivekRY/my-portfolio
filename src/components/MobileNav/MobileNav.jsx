@@ -11,11 +11,12 @@ const MobileNav = ({ toggleMenu, isOpen }) => {
         else if (e.target.name === 'Skills') setActiveNav('Skills')
         else if (e.target.name === 'Experience') setActiveNav('Experience')
         else setActiveNav('Contact');
+        toggleMenu();
     }
 
     return (
         <>
-            <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
+            <div className={`mobile-menu ${isOpen ? "active" : ""}`}>
                 <div className="mobile-container">
                     <h3 className="logo" src="" alt="Navlogo">&#x1F440; My Vision</h3>
                     <ul>
@@ -31,9 +32,9 @@ const MobileNav = ({ toggleMenu, isOpen }) => {
                         <li>
                             <Link to="contactid" offset={-150} className={`menu-item ${activeNav === 'Contact' ? 'active' : ''}`} smooth duration={500} name="Contact" onClick={handleActive}>Contact me</Link>
                         </li>
-                        <button className="contact-btn" onClick={() => { }}>
+                        {/* <button className="contact-btn" onClick={() => { }}>
                             Hire  me
-                        </button>
+                        </button> */}
                     </ul>
                 </div>
             </div>

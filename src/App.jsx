@@ -5,14 +5,10 @@ import Skills from './components/Skills/Skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
-import {} from 'emailjs-com'
 
 function App() {
   return (
     <>
-    <>
-      
-    </>
     <Navbar />
     <div className='container'>
       <Hero />
